@@ -11,7 +11,7 @@ document.body.append(container); // eslint-disable-line no-undef
 
 const appContainer = (
   <div>
-    Hello, World! Emily! Gideon!
+    💩
   </div>
 );
 
