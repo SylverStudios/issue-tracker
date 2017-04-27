@@ -15,3 +15,8 @@ To start IT: yarn run start
 `git push origin <branchname>`: push to Github repo on branchname. can't push to master because it's protected
 `git remote update`: update local caches of remote branches
 `git checkout -b <newbranchname> origin/master`: create new branch on top of most recent cache for origin/master
+
+# things you should do when starting a new development session
+`git remote update`
+`git checkout -b my-super-duper-development-effort origin/master`
+`yarn run start` to start the development live-reload webpack build
